@@ -1,0 +1,188 @@
+@media all and (max-width: 1169px) {
+    .leftsidediv{
+        width: 100%;
+    }
+    .bgaboutpage{
+        flex-direction: column;
+    }
+    .bgmediexppage{
+        flex-direction: column;
+    }
+    .bgareaspage{
+        flex-direction: column;
+    }
+    .rightsidediv{
+        width: 100%;
+    }
+    .infodisplay{
+        display: none;
+    }
+    .partshown{
+        display: flex;
+    }
+    .parthidden{
+        display: none;
+    }
+    .areapgright{
+        height: 0;
+    }
+    .areapgright.expand{
+        height: 100%;
+    }
+    .infoicon{
+        cursor: pointer;
+        animation: clickableanim 1s ease-in-out infinite;
+    }
+    @keyframes clickableanim {
+        0%{
+            transform: scale(1.0) translateY(-50px);
+        }
+        50%{
+            transform: scale(1.1) translateY(-50px);
+        }
+        100%{
+            transform: scale(1.0) translateY(-50px);
+        }
+    }
+    .txtlogo{
+        display: none;
+    }
+}
+@media all and (max-width: 1172px) {
+    .navbar-web.active{
+        width: 80%;
+    }
+}
+@media all and (max-width: 930px) {
+    .navbtn{
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 680px) {
+    .bgfirstintro p{
+        font-size: 40px;
+    }
+    .textmid{
+        font-size: 30px;
+    }
+    .docname{
+        font-size: 35px;
+    }
+    .docpfppng{
+        width: 150px;
+        height: 150px;
+    }
+    .navbar-web.active {
+        width: 95%;
+    }
+}
+@media all and (max-width: 577px) {
+    .cardleftmed{
+        width: 400px;
+    }
+    .cardleftarea{
+        width: 400px;
+    }
+    .infodisplay{
+        width: 430px;
+    }
+    .descript03{
+        display: none;
+    }
+    .innercont{
+        font-size: 15px;
+    }
+    .txtnav{
+        display: none;
+    }
+}
+@media all and (max-width: 450px) {
+    .cardleftmed{
+        width: 300px;
+        height: 300px;
+    }
+    .cardleftarea{
+        width: 300px;
+        height: 300px;
+    }
+    .infodisplay{
+        width: 300px;
+    }
+    .infoheader{
+        font-size: 13px;
+    }
+    .locationinfo2{
+        font-size: 13px;
+    }
+    .schedpart{
+        padding: 10px;
+    }
+    .selectbtns{
+        font-size: 15px;
+    }
+    .innercont{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .bgfirstintro p{
+        font-size: 35px;
+    }
+    .textmid{
+        font-size: 23px;
+    }
+    .textabove{
+        font-size: 20px;
+    }
+    .docname{
+        font-size: 25px;
+    }
+    .innercontarea{
+        font-size: 13px;
+    }
+    .navbar-web.active {
+        width: 100%;
+    }
+    .footerpgright{
+        display: none;
+    }
+}
+@media all and (max-height: 415px) {
+    .btnreadabout{
+        display: flex;
+    }
+    .txtdescaboutme{
+        display: none;
+    }
+}
+@media all and (max-width: 360px) {
+    .txtdescaboutme{
+        font-size: 13px;
+    }
+    .bgfirstintro p{
+        font-size: 25px;
+    }
+    .iconverif{
+        width: 24px;
+        height: 24px;
+    }
+    .docname{
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 280px) {
+    .docname{
+        font-size: 15px;
+    }
+    .textmid{
+        font-size: 14px;
+    }
+    .txtdescaboutme{
+        font-size: 10px;
+    }
+    .txtdescaboutme2{
+        font-size: 15px;
+    }
+    .clinicsfooter{
+        display: none;
+    }
+}

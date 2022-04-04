@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/logoweb.png">
+    <link rel="stylesheet" href="inedcss.css">
+    <link rel="stylesheet" href="webqueries.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Arnel D. Abatayo | Cebu</title>
+</head>
+<!--Coded and Visualized by: Miles Abatayo-->
+<body onload="loadttms()">
+    <div class="navbarbtn" onclick="togglenavbar()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="openbtnnav" fill="none" viewBox="0 0 24 24" stroke="#0066FF">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="closebtnnav" fill="none" viewBox="0 0 24 24" stroke="#ff5151">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+    </div>
+    <div class="screenloader">
+        <div class="iconheartload">
+            <img src="images/icons8-heartloadanim.gif">
+        </div>
+    </div>
+    <!--Navigation Bar-->
+    <div class="navbar-web">
+        <div class="homenav navbtn">
+            <a class="material-icons" id="navicons" href="#home">home</a>
+            <a class="txtnav" href="#home">Home</a>
+        </div>
+        <div class="aboutnav navbtn">
+            <a class="icondoc-blue" href="#aboutme"></a>
+            <a href="#aboutme" class="txtnav">About Me</a>
+        </div>
+        <div class="areaexpnav navbtn">
+            <a class="material-icons" id="navicons" href="#areasofexpertise">medical_services</a>
+            <a class="txtnav" href="#areasofexpertise">Area of Expertise</a>
+        </div>
+        <div class="areaexpnav navbtn">
+            <a class="iconclinic" href="#medicalservices"></a>
+            <a class="txtnav" href="#medicalservices">Clinics</a>
+        </div>
+        <div class="areaexpnav navbtn">
+            <a class="iconphone" href="#contactsme"></a>
+            <a class="txtnav" href="#contactsme">Contact Me</a>
+        </div>
+    </div>
+    <!--Mainpage-->
+    <section class="bgfirstintro" id="home">
+        <div class="logoarea">
+            <img src="images/logoweb.png">
+            <p class="txtlogo">Arnel D. Abatayo, MD</p>
+            <div class="iconverif txtlogo" data-aos="fade" data-aos-duration="1000" data-aos-delay="2000" data-aos-once="true"></div>
+        </div>
+        <div class="orimgplace operate"></div>
+        <div class="orimgplace clinic2"></div>
+        <div class="txt01" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="1000" data-aos-once="true">
+            <p>LOOKING FOR A<br><span> LAPAROSCOPIC<br>SURGEON</span> IN CEBU?</p>
+        </div>
+        <div class="arrowdowner" title="Scroll Down" onclick="scrolltoaboutpg()">
+            <i class="material-icons" id="mouseicon">mouse</i>
+            <i class="material-icons" id="arrowicon">expand_more</i>
+        </div>
+        <div class="magellanscrs magellan"></div>
+        <div class="magellanscrs clinic1"></div>
+    </section>
+    <div class="spacebgintro actualcurve"></div>
+    <!--Aboutpage-->
+    <section class="bgaboutpage" id="aboutme">
+        <div class="leftsidediv aboutpgleft" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+            <div class="pageindicate">
+                <div class="icondoc-white"></div>
+                <p>About me</p>
+            </div>
+            <div class="textabove">
+                Meet,
+            </div>
+            <div class="textmid">
+                The Surgeon himself!
+            </div>
+            <hr/>
+            <div class="docname">
+                Arnel D. Abatayo, MD
+                <div class="iconverif" title="Verified Surgeon"></div>
+            </div>
+        </div>
+        <div class="rightsidediv aboutpgright" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200" data-aos-once="true">
+            <div class="docpfppng"></div>
+            <div class="txtdescaboutme" align="center">
+                <span>Arnel D. Abatayo, MD</span> or <span>Arnel</span>, is a surgeon who<br>
+                specializes in Laparoscopic, General and Cancer Surgery.<br>
+                He works in Metro Cebu, and is associated with hospitals<br>like
+                Chong Hua Hospital (Fuente, Mandaue).
+            </div>
+            <a class="btnreadabout" href="aboutme.html">
+                Read More
+            </a>
+        </div>
+    </section>
+    <div class="spacebgabout actualcurveabout"></div>
+    <!--Areas of Expertise-->
+    <section class="bgmediexppage" id="areasofexpertise">
+        <div class="pageindicate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+            <i class="material-icons" id="pgindicon">medical_services</i>
+            <p>Areas of Expertise</p>
+        </div>
+        <div class="leftsidediv medsrvepgleft">
+        </div>
+    </section>
+    <div class="spacebgwork actualcurvework"></div>
+    <!--Clinics-->
+    <section class="bgareaspage" id="medicalservices">
+        <div class="pageindicate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+            <div class="iconclinic-white"></div>
+            <p>Clinics & Schedules</p>
+        </div>
+        <div class="leftsidediv areapgleft" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0" data-aos-once="true">
+            <div class="cardleftarea">
+                <div class="crdarea" data-aos="fade" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
+                    <div class="iconclinic"></div>
+                    Clinics
+                </div>
+                <div class="innerarea">
+                    <div class="innercontarea" onclick="openchmedi()" data-aos="fade" data-aos-duration="1000" data-aos-delay="700" data-aos-once="true">
+                        <div class="iconhosp"></div>
+                        Chong Hua Fuente Medical Arts Center
+                        <div class="descript03" align="center">
+                            3 Mirasol Street, Fuente Osmeña Cir, Cebu City, 6000 Cebu
+                        </div>
+                    </div>
+                    <div class="innercontarea" onclick="openchman()" data-aos="fade" data-aos-duration="1000" data-aos-delay="900" data-aos-once="true">
+                        <div class="iconhosp"></div>
+                        Chong Hua Mandaue Medical Arts, Cebu
+                        <div class="descript03" style="font-size: 9px;" align="center">
+                            International Drive City South Special Economic Administrative Zone,<br>
+                            Mantawe Ave, Tipolo, Mandaue City, 6014 Cebu
+                        </div>
+                    </div>
+                    <div class="innercontarea" onclick="openvircl()" data-aos="fade" data-aos-duration="1000" data-aos-delay="1100" data-aos-once="true">
+                        <div class="iconhosp"></div>
+                        Online Clinic
+                        <div class="descript03">
+                            Virtual Consultation
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightsidediv areapgright">
+            <div class="infodisplay" id="chongmedicalarts" data-aos="fade" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
+                <div class="infoheader">
+                    <div class="infoicon" onclick="gobklist()">
+                        <div class="iconhosp-white"></div>
+                    </div>
+                    Chong Hua Medical Arts Center 2, Cebu
+                </div>
+                <div class="selectors">
+                    <div class="selectbtns infobtn" onclick="chonghuafeinfolink()">
+                        Information
+                    </div>
+                    <div class="selectbtns schedbtn" onclick="chonghuafeschedlink()" >
+                        Schedule
+                    </div>
+                </div>
+                <div class="mainareainfo">
+                    <div class="locationinfo">
+                        <div class="upperptr">
+                            <div class="iconloca-grey"></div>
+                            Location
+                        </div>
+                        3 Mirasol Street, Fuente Osmeña Cir, Cebu City, 6000 Cebu
+                    </div>
+                    <div class="roominfo">
+                        <div class="upperptr">
+                            <div class="iconroom-grey"></div>
+                            Clinic Room
+                        </div>
+                        Room 215
+                    </div>
+                    <div class="scheduleinfo">
+                        <div class="upperptr">
+                            <div class="iconsched-grey"></div>
+                            Schedule
+                        </div>
+                        <div class="schedpart">
+                            <div class="scheditms">
+                                <span>Mon</span>
+                                1PM - 3PM (Walk-In and Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Tue</span>
+                                1PM - 3PM (Walk-In and Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Wed</span>
+                                1PM - 3PM (By Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Thu</span>
+                                1PM - 2PM (Walk-In and Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Fri</span>
+                                12NN - 3PM (Walk-In and Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Sat</span>
+                                10AM - 12NN (Walk-In and Appointment)
+                            </div>
+                        </div>
+                    </div>
+                    <a class="locaopen gglmps" href="https://goo.gl/maps/UTusfNP2xcGNYaicA" target="_blank">
+                        <div class="iconmap-white"></div>
+                        Open Location in Google Maps
+                    </a>
+                    <a class="locaopen" href="https://seriousmd.com/doc/aabatayo" target="_blank">
+                        <div class="iconappoint-white"></div>
+                        Schedule an Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="infodisplay" id="chongmandaue">
+                <div class="infoheader">
+                    <div class="infoicon" onclick="gobklist2()">
+                        <div class="iconhosp-white"></div>
+                    </div>
+                    Chong Hua Mandaue Hospital, Cebu
+                </div>
+                <div class="selectors">
+                    <div class="selectbtns infobtn2" onclick="chonghuamaninfolink2()">
+                        Information
+                    </div>
+                    <div class="selectbtns schedbtn2" onclick="chonghuamanschedlink2()" >
+                        Schedule
+                    </div>
+                </div>
+                <div class="mainareainfo">
+                    <div class="locationinfo2">
+                        <div class="upperptr">
+                            <div class="iconloca-grey"></div>
+                            Location
+                        </div>
+                        International Drive City South Special Economic Administrative Zone,<br>
+                        Mantawe Ave, Tipolo, Mandaue City, 6014 Cebu
+                    </div>
+                    <div class="roominfo2">
+                        <div class="upperptr">
+                            <div class="iconroom-grey"></div>
+                            Clinic Room
+                        </div>
+                        Room 215
+                    </div>
+                    <div class="scheduleinfo2 parthidden">
+                        <div class="upperptr">
+                            <div class="iconsched-grey"></div>
+                            Schedule
+                        </div>
+                        <div class="schedpart">
+                            <div class="scheditms">
+                                <span>Mon</span>
+                                10AM - 1PM (Walk-In)
+                            </div>
+                        </div>
+                    </div>
+                    <a class="locaopen gglmps2" href="https://goo.gl/maps/WrSro1UaAP1Vj7hV9" target="_blank">
+                        <div class="iconmap-white"></div>
+                        Open Location in Google Maps
+                    </a>
+                    <a class="locaopen" href="https://seriousmd.com/doc/aabatayo" target="_blank">
+                        <div class="iconappoint-white"></div>
+                        Schedule an Appointment
+                    </a>
+                </div>
+            </div>
+            <div class="infodisplay" id="virtualclinic">
+                <div class="infoheader">
+                    <div class="infoicon" onclick="gobklist3()">
+                        <div class="iconhosp-white"></div>
+                    </div>
+                    Virtual Consult / Online Clinic
+                </div>
+                <div class="selectors">
+                    <div class="selectbtns infobtn3" onclick="chonghuamaninfolink3()">
+                        Information
+                    </div>
+                    <div class="selectbtns schedbtn3" onclick="chonghuamanschedlink3()" >
+                        Schedule
+                    </div>
+                </div>
+                <div class="mainareainfo">
+                    <div class="locationinfo3">
+                        <div class="upperptr">
+                            <div class="iconloca-grey"></div>
+                            Location
+                        </div>
+                        No Location
+                    </div>
+                    <div class="scheduleinfo3 parthidden">
+                        <div class="upperptr">
+                            <div class="iconsched-grey"></div>
+                            Schedule
+                        </div>
+                        <div class="schedpart">
+                            <div class="scheditms">
+                                <span>Mon</span>
+                                (By Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Tue</span>
+                                (By Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Wed</span>
+                                (By Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Thu</span>
+                                (By Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Fri</span>
+                                (By Appointment)
+                            </div>
+                            <div class="scheditms">
+                                <span>Sat</span>
+                                (By Appointment)
+                            </div>
+                        </div>
+                    </div>
+                    <a class="locaopen gglmps3" href="https://goo.gl/maps/WrSro1UaAP1Vj7hV9" target="_blank">
+                        <div class="iconmap-white"></div>
+                        Open Location in Google Maps
+                    </a>
+                    <a class="locaopen" href="https://seriousmd.com/doc/aabatayo" target="_blank">
+                        <div class="iconappoint-white"></div>
+                        Schedule an Appointment
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="spacebgcont actualcurvecont"></div>
+    <!--Contacts-->
+    <section class="bgcontactpage" id="contactsme">
+        <div class="leftsidediv footerpgleft">
+            <div class="toppartfooter">
+                <div class="icondoc-blue"></div> 
+                Would you like to schedule an appointment?
+            </div>
+            <a class="locaopen" href="https://seriousmd.com/doc/aabatayo" target="_blank">
+                <div class="iconappoint-white"></div>
+                Schedule an Appointment
+            </a>
+            <div class="clinicsfooter">
+                <div class="clinicname">
+                    <div class="iconclinic"></div>
+                    Clinics
+                </div>
+                <div class="clnkname">
+                    <div class="iconhosp"></div>
+                    <a href="https://goo.gl/maps/UTusfNP2xcGNYaicA" target="_blank">Chong Hua Fuente Medical Arts Center 2</a>
+                </div>
+                <div class="clnkname">
+                    <div class="iconhosp"></div>
+                    <a href="https://goo.gl/maps/WrSro1UaAP1Vj7hV9" target="_blank">Chong Hua Mandaue Medical Arts, Cebu</a>
+                </div>
+                <div class="clnkname">
+                    <div class="iconhosp"></div>
+                    Online Clinic / Virtual Consultation
+                </div>
+            </div>
+            <div class="iconname">
+                <a class="iconicons8" href="https://icons8.com/icons" target="_blank"></a>
+                <a href="https://icons8.com/icons" target="_blank">Icons by Icons8</a>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"></script>
+<script src="uixcontrol.js"></script>
+<script src="parallaxjs.js"></script>
+</html>
